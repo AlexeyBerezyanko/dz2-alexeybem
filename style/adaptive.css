@@ -1,0 +1,144 @@
+@media (min-width: 900px) and (max-width: 1212.88px){
+    .header-wraped__button-all{
+        margin-left: 35px;
+    }       
+    .text__title{
+        font-size: 49px;
+    }
+    .find-room{
+        max-width: 79%;
+    }
+    .holidays{
+        left: 15px;        
+    }
+    .dream-conteiner{
+     width: 8%;
+     margin-top: -18px;   
+    }
+    .dream-conteiner__title{
+     font-size: 27px;   
+    }
+    .lux-room,
+    .mini-room,
+    .stande-room,
+    .single-room,
+    .elite-room{
+        width: 45%;
+    }
+    .hotel-gallery{
+        justify-content: center;
+    }
+   .about{
+       margin-right: 92px;
+   }
+   .info{
+       padding: 0px 10px 10px 10px;
+   }   
+}
+
+@media (min-width: 650px) and (max-width: 899px){
+  .header-list{
+    margin: 0px;  
+  }
+  .header{
+      padding-left: 50px;
+  }
+  .header-wraped__button-all {
+    position: absolute;
+    top: 15px;
+    left: 400px; 
+  }
+  .header-wraped{
+      position: relative;
+  }
+  .text{
+      padding-left: 50px;
+  }
+  .text__title{
+      font-size: 45px;
+      line-height: 109%;
+  }
+  .find-room{
+      left: 50px;
+  }
+  .serch{
+      margin-right: -3px;
+  }
+  .serch__button {
+      position: absolute;
+      margin: 0px;
+      left: 430px;
+  }
+  .holidays{
+      left: 50px;
+  }
+  .holidays-img__gong{
+      width: 80%;
+  }
+  .holidays-img__gong-fon{
+      width: 70%;
+      left: 180px;
+  }
+  .holidays-img__ripples{
+      width: 35%;
+  }
+  .dream-conteiner{
+      width: 1%;
+      margin-top: -5px;
+      margin-bottom: 20px;
+  }
+  .dream-conteiner__title{
+      font-size: 27px;
+  }
+  .hotel-gallery{
+      padding-left: 50px;
+  }
+  .about{
+      max-width: 50%;
+      padding-bottom: 15px;
+  }
+  .lux-room{
+      width: 47%;
+      margin-right: 20px;
+  }
+  .price-lux,
+  .price-mini,
+  .price-stande,
+  .price-single{
+      top: 170px;
+      padding: 10px;
+  }
+  .mini-room{
+      margin-right: 0px;
+      margin-top: 0px;
+  }  
+  .stande-room{
+      width: 47%;
+      margin-right: 20px;
+  }  
+  .single-room{
+      width: 47%;      
+      margin-right: 0px;      
+  }
+  .elite-room{
+      padding-bottom: 253px;
+      width: 47%;
+  }
+  .intouch{
+      margin-left: 200px;
+  }
+  .intouch__discription{
+      font-size: 27px;     
+  }
+  .email{
+    margin-left: 200px;   
+  }
+  .inter-email__address{
+      width: 312px;
+  }
+  .info{
+      padding: 0px 15px;
+  }
+
+ 
+}
