@@ -5,8 +5,9 @@
 }
 /*BLOCK HEADER-->*/
 .wraped{
-    max-width: 1162px;
-    margin: 0 auto;    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;    
 }
 .header-wraped{
     display: flex;
@@ -27,7 +28,7 @@
 .header-list__item:last-child{
     margin-right: 0px;
 }
-.header-list-item__link{
+.header-list__link{
     text-decoration: none;
     font-family: 'Gelasio';
     font-style: normal;
@@ -46,12 +47,13 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
-    color: #FFFFFF;    
+    color: #FFFFFF;
+    border: none;    
 }
 .header-wraped__button-all{
     margin-left: 331px;
 }
-.header-list-item__link:active{
+.header-list__link:active{
     color: #1B75BB;
 }
 /*BLOCK MAIN*/
@@ -148,15 +150,14 @@
     margin-right: 49px;
 }
 /*HOLIDAYS*/
-.holidays{
-    max-width: 1212px;
+.holidays{    
     display: flex;
     flex-wrap: wrap;
     margin-top: 160px;
     position: relative;
     justify-content: space-between;
     margin-bottom: 200px;
-    left: 390px;
+   
 }
 .holidays-img{
     max-width: 51%;
@@ -205,11 +206,6 @@
     margin-bottom: 32px;
 }
 /*CHOOSE-CONTEINER*/
-.choose-conteiner{    
-    width: 1140px;
-    margin-left: auto;
-    margin-right: auto;   
-}
 .choose{
     width: 72%;
     text-align: center;
@@ -265,11 +261,9 @@
 /*HOTEL-GALLERY*/
 .hotel-gallery{
     display: flex;
-    flex-wrap: wrap;
-    max-width: 1140px;    
-    margin-top: 140px;    
-    margin-left: auto;
-    margin-right: auto;
+    flex-wrap: wrap;       
+    margin-top: 140px;
+    justify-content: space-between;    
 }
 .about{
     max-width: 38%;
@@ -293,11 +287,15 @@
     color: rgba(8, 31, 50, 0.6);
     margin-bottom: 30px;  
 }
-.lux-room{
-    background-image: url(../img/Lux-room.png);
+.room{    
     width: 48%;
     border-radius: 10px;
-    position: relative;    
+    position: relative;
+    margin-bottom: 30px;    
+}
+.room__img{
+    display: block;
+    width: 100%;
 }
 .price__title{
     font-family: 'Gelasio';
@@ -329,17 +327,17 @@
     line-height: 150%;
     color: #FFFFFF; 
 }
-.price-lux{
+.price{
     position: absolute;
-    top: 150px;    
+    bottom: 0;
+    left: 0;   
     background: rgba(226, 226, 226, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding: 20px;
 }
 .mini-room{
-    width: 48%;   
-    background-image: url(../img/mini-room.png);
+    width: 48%;     
     border-radius: 10px;    
     position: relative;
     padding-bottom: 270px;
@@ -355,8 +353,7 @@
     padding: 20px;
 }
 .stande-room{
-    width: 48%;
-    background-image: url(../img/stande-room.png);
+    width: 48%;    
     border-radius: 10px;    
     position: relative;
     margin-top: 30px;
@@ -370,8 +367,7 @@
     padding: 20px;
 }
 .single-room{
-    width: 48%;
-    background-image: url(../img/single-room.png);
+    width: 48%;   
     border-radius: 10px;    
     position: relative;
     margin-top: 30px;
@@ -387,8 +383,7 @@
     padding: 20px;     
 }
 .elite-room{
-    width: 48%;
-    background-image: url(../img/elite-room.png);
+    width: 48%;   
     border-radius: 10px;    
     position: relative;
     margin-top: 30px;
@@ -411,7 +406,7 @@
     margin-right: auto;
     margin-top: 140px; 
 }
-.clientisay__title{
+.client-say__title{
     font-family: 'Gelasio';
     font-style: normal;
     font-weight: 500;
@@ -505,12 +500,16 @@
 /*EMAIL*/
 .email{
     text-align: center;
-    margin-top: 50px;   
+    margin-top: 50px;    
+}
+.inter-email{
+    display: flex; 
+    justify-content: center;   
 }
 .inter-email__address{
     width: 405px;
     height: 54px;
-    padding: 15px 30px 15px 30px;  
+    padding: 15px 30px 15px 30px;    
 }
 /*INFO*/
 .info{
@@ -530,6 +529,11 @@
     line-height: 150%;
     color: rgba(8, 31, 50, 0.7);
     margin-bottom: 30px;    
+}
+.info-row__link{
+    text-decoration: none;
+    color: #081F32;
+    opacity: 0.7;
 }
 .logo-info__email{
     font-family: 'Poppins';
@@ -572,13 +576,19 @@
     margin-top: 54px;
 }
 .subscribe-inter{
-    width: 40%;
+    width: 100%;
+    display: flex; 
+    justify-content: center;   
 }
 .info-row{
     margin-top: 54px;
 }
-.info-row__content:active{
+.info-row__link:active{
+    opacity: 1;
     color: #081F32;
+    margin-bottom: 30px;
+}
+.info-row__content:active{   
     margin-bottom: 30px;
 }
 .subscribe-inter__text{
