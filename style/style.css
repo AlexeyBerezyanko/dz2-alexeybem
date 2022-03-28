@@ -336,66 +336,6 @@
     border-radius: 10px;
     padding: 20px;
 }
-.mini-room{
-    width: 48%;     
-    border-radius: 10px;    
-    position: relative;
-    padding-bottom: 270px;
-    margin-top: 30px;
-    margin-right: 30px;
-}
-.price-mini{
-    position: absolute;
-    top: 150px;
-    background: rgba(226, 226, 226, 0.4);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    padding: 20px;
-}
-.stande-room{
-    width: 48%;    
-    border-radius: 10px;    
-    position: relative;
-    margin-top: 30px;
-}
-.price-stande{
-    position: absolute;
-    top: 150px;
-    background: rgba(226, 226, 226, 0.4);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    padding: 20px;
-}
-.single-room{
-    width: 48%;   
-    border-radius: 10px;    
-    position: relative;
-    margin-top: 30px;
-    padding-bottom: 270px;
-    margin-right: 30px;
-}
-.price-single{
-    position: absolute;
-    top: 150px;
-    background: rgba(226, 226, 226, 0.4);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    padding: 20px;     
-}
-.elite-room{
-    width: 48%;   
-    border-radius: 10px;    
-    position: relative;
-    margin-top: 30px;
-}
-.price-elite{
-    position: absolute;
-    top: 150px;
-    background: rgba(226, 226, 226, 0.4);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    padding: 20px;
-}
 /*CLIENT-SAY*/
 .client-say{
     width: 1140px;

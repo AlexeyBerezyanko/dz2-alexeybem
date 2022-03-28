@@ -1,4 +1,5 @@
-@media (min-width: 900px) and (max-width: 1212.88px){
+/*900px-1212px*/
+@media (min-width: 900px) and (max-width: 1212.88px){    
     .header-wraped__button-all{
         margin-left: 35px;
     }       
@@ -11,49 +12,91 @@
     .holidays{
         left: 15px;        
     }
+    .holidays-img__gong{
+        width: 55%;
+    }
+    .holidays-img__gong-fon{
+        width: 48%;
+    }
+    .holidays-img__ripples{
+        width: 22%;
+    }
     .dream-conteiner{
-     width: 8%;
+     width: 21%;
      margin-top: -18px;   
     }
     .dream-conteiner__title{
      font-size: 27px;   
     }
-    .lux-room,
-    .mini-room,
-    .stande-room,
-    .single-room,
-    .elite-room{
-        width: 45%;
-    }
+    .room__img{
+        width: 95%;
+    }   
     .hotel-gallery{
         justify-content: center;
+    }
+    .client-say{
+        width: 100%;
+    }
+    .reviews{
+        width: 100%;
     }
    .about{
        margin-right: 92px;
    }
    .info{
-       padding: 0px 10px 10px 10px;
-   }   
+      width: 100%;
+      flex-wrap: nowrap;
+   }  
+   .logo-info__img{
+       width: 65%;
+   }
+   .logo-info{
+       width: 23%;
+   }
+   .logo-info__description{
+       font-size: 15px;
+       margin-bottom: 25px;
+   }
+   .info-row{
+       width: 16%;           
+   }
+   .info-row__content{
+       font-size: 13px;
+   }
+   .info-row{
+      padding-left: 20px;
+   }
+   .subscribe{
+       width: 33%;
+   }
+   
 }
-
+/*650px-900px*/
 @media (min-width: 650px) and (max-width: 899px){
+  .header-wraped{
+    justify-content: start;
+  }  
+  .header-wraped__img{
+      width: 72%;
+  }
   .header-list{
-    margin: 0px;  
+    margin-left: -35px;  
   }
-  .header{
-      padding-left: 50px;
+  .header-list__item{
+      margin-right: 25px;
   }
+  .button{
+      width: 120px;
+  }  
   .header-wraped__button-all {
     position: absolute;
     top: 15px;
-    left: 400px; 
+    left: 173px; 
   }
   .header-wraped{
       position: relative;
   }
-  .text{
-      padding-left: 50px;
-  }
+  
   .text__title{
       font-size: 45px;
       line-height: 109%;
@@ -68,62 +111,38 @@
       position: absolute;
       margin: 0px;
       left: 430px;
-  }
-  .holidays{
-      left: 50px;
-  }
+  }  
   .holidays-img__gong{
-      width: 80%;
+      width: 60%;
   }
   .holidays-img__gong-fon{
-      width: 70%;
+      width: 50%;
       left: 180px;
   }
   .holidays-img__ripples{
-      width: 35%;
+      width: 20%;
   }
   .dream-conteiner{
-      width: 1%;
+      width: 20%;
       margin-top: -5px;
       margin-bottom: 20px;
   }
   .dream-conteiner__title{
-      font-size: 27px;
+      font-size: 22px;
   }
-  .hotel-gallery{
-      padding-left: 50px;
+  .client-say{
+      width: 100%;
+  }
+  .reviews{
+      width: 100%;
+  } 
+  .people__discription{
+      font-size: 13px;
   }
   .about{
       max-width: 50%;
       padding-bottom: 15px;
-  }
-  .lux-room{
-      width: 47%;
-      margin-right: 20px;
-  }
-  .price-lux,
-  .price-mini,
-  .price-stande,
-  .price-single{
-      top: 170px;
-      padding: 10px;
-  }
-  .mini-room{
-      margin-right: 0px;
-      margin-top: 0px;
   }  
-  .stande-room{
-      width: 47%;
-      margin-right: 20px;
-  }  
-  .single-room{
-      width: 47%;      
-      margin-right: 0px;      
-  }
-  .elite-room{
-      padding-bottom: 253px;
-      width: 47%;
-  }
   .intouch{
       margin-left: 200px;
   }
@@ -137,8 +156,46 @@
       width: 312px;
   }
   .info{
-      padding: 0px 15px;
+     width: 100%;
+    
   }
+  .logo-info__description{
+      font-size: 14px;
+  }
+  .logo-info__email{
+      font-size: 13px;
+  }
+  .logo-info{
+      width: 25%;
+  }
+  .info-row{
+      width: 25%
+  }
+  .intouch{
+      margin-left: 35px;
+  }
+  .email{
+      margin-left: 35px;
+  }
+  .social__massager{
+      margin-right: 10px;
+  }
+  .info-row__content{
+      font-size: 12px;
+  }
+  .logo-info__img{
+    width: 77%;
+  }
+  .subscribe{
+      width: 20%;
+  }
+  .subscribe-inter{
+      width: 55%;
+  }
+  .subscribe-inter__text{
+      width: 125px;
+  }
+
 
  
 }
